@@ -1,0 +1,22 @@
+{
+  "name": "ZWDrawer",
+  "version": "0.1.0",
+  "summary": "A short description of ZWDrawer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhuzhiwen0527/ZWDrawer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhuzhiwen0527": "641450178@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhuzhiwen0527/ZWDrawer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZWDrawer/Classes/**/*"
+}

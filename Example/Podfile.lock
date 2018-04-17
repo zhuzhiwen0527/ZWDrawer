@@ -1,0 +1,16 @@
+PODS:
+  - ZWDrawer (0.1.0)
+
+DEPENDENCIES:
+  - ZWDrawer (from `../`)
+
+EXTERNAL SOURCES:
+  ZWDrawer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZWDrawer: 51d27165fe58faa7bfb10a0705acbf0ded2d76e5
+
+PODFILE CHECKSUM: 27e5067a9471355f566894896c08f52ed1d37efe
+
+COCOAPODS: 1.2.1

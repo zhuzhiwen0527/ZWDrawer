@@ -1,0 +1,6 @@
+framework module ZWDrawer {
+  umbrella header "ZWDrawer-umbrella.h"
+
+  export *
+  module * { export * }
+}
