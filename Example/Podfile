@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZWDrawer_Tests' do
+  pod 'ZWDrawer', :path => '../'
+  
+  
+end
