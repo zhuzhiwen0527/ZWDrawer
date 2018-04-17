@@ -22,7 +22,7 @@ pod 'ZWDrawer'
 
 ## Author
 
-zhuzhiwen0527, 641450178@qq.com
+zhuzhiwen0527, 602129484@qq.com
 
 ## License
 
