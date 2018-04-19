@@ -12,5 +12,6 @@
 @property (nonatomic,strong) UIView * maskView;
 @property (nonatomic,strong) UIView * leftView;
 @property (nonatomic,strong) UIImageView * bgImgView;
-- (void)initializeDrawer;
++ (UIViewController *)createDrawer;
+
 @end

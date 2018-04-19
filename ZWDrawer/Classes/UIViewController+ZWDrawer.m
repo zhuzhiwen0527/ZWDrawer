@@ -13,6 +13,12 @@ static const void * zw_bgImgViewKey = &zw_bgImgViewKey;
 static const void * zw_maskViewKey = &zw_maskViewKey;
 @implementation UIViewController (ZWDrawer)
 
++ (UIViewController *)createDrawer{
+    
+    UIViewController * vc = [[self alloc] init];
+    [vc initializeDrawer];
+    return vc;
+}
 - (void)initializeDrawer{
     self.view.backgroundColor = [UIColor blackColor];
     self.bgImgView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -62,9 +68,7 @@ static const void * zw_maskViewKey = &zw_maskViewKey;
         if(self.leftView.frame.origin.x <= -[UIScreen mainScreen].bounds.size.width*0.75 && translation.x<0){
             
             NSLog(@"消失");
-            [self dismissViewControllerAnimated:NO completion:^{
-                
-            }];
+            [self.navigationController popViewControllerAnimated:NO];
             return;
             
         }
@@ -92,9 +96,7 @@ static const void * zw_maskViewKey = &zw_maskViewKey;
          self.bgImgView.transform = CGAffineTransformMakeScale(1, 1);
     }completion:^(BOOL finished) {
       
-        [self dismissViewControllerAnimated:NO completion:^{
-            
-        }];
+          [self.navigationController popViewControllerAnimated:NO];
     }];
 }
 
